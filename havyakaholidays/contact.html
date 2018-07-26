@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Havyaka Holidays</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="page">        
+        <div id="header" align="center" >
+        <table cellpadding = "2" cellspacing = "5" border = "0" width="100%">
+        <tr>
+        <td width="33%" valign="top">
+        &nbsp;
+        </td>
+        <td width="33%">
+        <img src="images/logo_small.png" alt="Havyaka Holidays" align="center" \>
+        </td>
+        <td align = "right">
+        +91 9886449689 <br/> <br/>
+        havyakaholidays@gmail.com
+        </td>
+        </tr>
+        </table>
+        
+        
+           
+           
+        </div>
+        <div id="page2"> 
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                   <!-- <li><a href="#">Events</a></li> -->
+                    <li><a href="gallery.html">Gallery</a></li> 
+                    <!-- <li><a href="#">Locations</a></li> -->
+                    <!-- <li><a href="#">About</a></li>  -->                                    
+                    <li class="active"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="image-holder">
+            <img src="images/gallary/home_slide/01.jpg" class="mySlides" />
+            <img src="images/gallary/home_slide/02.jpg" class="mySlides" />
+            <img src="images/gallary/home_slide/03.jpg" class="mySlides" />
+            <img src="images/gallary/home_slide/04.jpg" class="mySlides" />
+            <img src="images/gallary/home_slide/05.jpg" class="mySlides" />
+            <img src="images/gallary/home_slide/06.jpg" class="mySlides" />
+            <img src="images/gallary/home_slide/07.jpg" class="mySlides" />
+            <img src="images/gallary/home_slide/08.jpg" class="mySlides" />
+            <img src="images/gallary/home_slide/09.jpg" class="mySlides" />
+            <img src="images/gallary/home_slide/10.jpg" class="mySlides" />
+            <img src="images/gallary/home_slide/11.jpg" class="mySlides" />
+            <img src="images/gallary/home_slide/12.jpg" class="mySlides" />
+            
+        </div>
+            <!--<div id="image">&nbsp;</div> -->
+            <div id="main">
+                <div id="content">			
+                    <div class="post">
+                        <p> &nbsp;</p>
+                        <p>Mobile : +91 98864 49689</p>
+                        <p>Email  : havyakaholidays@gmail.com</p>
+                           <p>              
+                            <b>Havyaka Holidays Office Address :</b></br>
+                               #D401, Pride Springfields,<br/>
+                               Subrahmanyapura Post, Uttarahalli,<br/> 
+                               Bangalore - 560061
+                            </p>
+                        </div>
+                    </div><!-- post -->	                    
+                    </div><!-- content --> 
+                             
+                <div class="clearing">&nbsp;</div>   
+            </div><!-- main -->
+            
+             
+        <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+    <!--
+            <div id="footer">
+                <p>Copyright &copy; 2018
+</p>
+            </div>
+            -->
+        </div><!-- page2 -->
+    </div><!-- page -->
+</body>
+</html>
